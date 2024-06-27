@@ -1,0 +1,158 @@
+.Accroche {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.Titre {
+    background-color: white;
+    padding: 35px 25px 0px 25px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to bottom, #cbe7dd, #8ce0c3, #ad8fee, #e094ec);
+}
+
+.Merci {
+    background-color: white;
+    border: 2px black solid;
+    box-shadow: 10px 10px 3px black;
+    align-content: center;
+    color: black;
+    margin: 50px;
+}
+
+.Merci li {
+    color:black;
+}
+
+.Source {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.Source p {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.Structure ul {
+    font-size: 80%;
+    border: 1px black solid;
+    border-radius: 22% 78% 97% 3% / 18% 72% 28% 82%;
+    box-shadow: 5px 5px 50px white;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+.Effets ul {
+    text-align: center;
+    font-size: 80%;
+    border: 1px black solid;
+    border-radius: 45% 55% 67% 33% / 49% 53% 47% 51%;
+    width: 200px;
+    height: 120px;
+    box-shadow: 5px 5px 50px white;
+    padding: 20px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.Banques ul {
+    text-align: center;
+    font-size: 80%;
+    border: 1px black solid;
+    border-radius: 45% 55% 12% 88% / 68% 48% 52% 32%;
+    width: 310px;
+    height: 140px;
+    box-shadow: 5px 5px 50px white;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+.TUTO ul {
+    text-align: center;
+    font-size: 80%;
+    border: 1px black solid;
+    border-radius: 100% 0% 97% 3% / 58% 42% 58% 42%;
+    width: 200px;
+    height: 60px;
+    box-shadow: 5px 5px 50px white;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+.JS {
+    padding-top: 30px;
+}
+
+.JS ul {
+    text-align: center;
+    font-size: 80%;
+    border: 1px black solid;
+    border-radius: 12% 88% 0% 100% / 22% 67% 33% 78%;
+    width: 300px;
+    height: 50px;
+    box-shadow: 5px 5px 50px white;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+.Autres ul {
+    text-align: center;
+    font-size: 80%;
+    border: 1px black solid;
+    border-radius: 70% 30% 62% 38% / 38% 74% 26% 62%;
+    width: 300px;
+    height: 20px;
+    box-shadow: 5px 5px 50px white;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+.Bonus {
+    grid-column: 3/5;
+}
+
+.Bonus p {
+    text-align: right;
+}
+
+.Bonus ul {
+    text-align: center;
+    font-size: 80%;
+    border: 1px black solid;
+    border-radius: 70% 30% 62% 38% / 38% 74% 26% 62%;
+    box-shadow: 5px 5px 50px white;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+
+li {
+    display:block
+}
+
+
+a {
+    color: black;
+}
+
+a:visited:not(.mail, .Calendly)  {
+    color:#de71d2;
+}
+
+footer {
+    border-top: 5px black solid;
+  }
+
+
